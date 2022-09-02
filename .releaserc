@@ -1,6 +1,11 @@
 {
   "branches": [
-    "master"
+    "master",
+    {
+      "name": "brinishness_test",
+      "channel": "release",
+      "prerelease": true
+    }
   ],
   "plugins": [
     "@semantic-release/commit-analyzer",
