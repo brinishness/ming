@@ -14,10 +14,14 @@
     "prepare": "husky install"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "url": "https://github.com/brinishness/ming.git"
   },
   "homepage": "",
-  "repository": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brinishness/ming.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
