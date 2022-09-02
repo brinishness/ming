@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/brinishness/ming/compare/v1.8.0...v1.9.0) (2022-09-02)
+
+
+### Features
+
+* 新增发布npm包 ([37065cb](https://github.com/brinishness/ming/commit/37065cb2e862e644b155287a67ac443f97a3bc3c))
+
 # [1.8.0](https://github.com/brinishness/ming/compare/v1.7.0...v1.8.0) (2022-09-02)
 
 
