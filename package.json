@@ -14,8 +14,8 @@
     "prepare": "husky install"
   },
   "publishConfig": {
-    "access": "public",
-    "url": "https://github.com/brinishness/ming.git"
+    "@brinishness:registry": "https://npm.pkg.github.com",
+    "access": "public"
   },
   "homepage": "",
   "repository": {
