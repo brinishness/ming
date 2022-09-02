@@ -14,8 +14,7 @@
     "prepare": "husky install"
   },
   "publishConfig": {
-    "access": "public",
-    "brinishness:registry": "https://npm.pkg.github.com"
+    "access": "public"
   },
   "homepage": "",
   "repository": {},
