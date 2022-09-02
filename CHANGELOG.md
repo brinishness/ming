@@ -1,3 +1,10 @@
+# [1.19.0](https://github.com/brinishness/ming/compare/v1.18.0...v1.19.0) (2022-09-02)
+
+
+### Features
+
+* 新增发布npm包github以及npm仓库 ([cb4f321](https://github.com/brinishness/ming/commit/cb4f32153dd750cd4189e55a53afe8c0e75e6f7b))
+
 # [1.18.0](https://github.com/brinishness/ming/compare/v1.17.0...v1.18.0) (2022-09-02)
 
 
