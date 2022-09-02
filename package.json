@@ -1,5 +1,5 @@
 {
-  "name": "@brinishness/brinishness_test",
+  "name": "brinishness_test",
   "version": "1.16.0",
   "description": "",
   "type": "module",
@@ -15,7 +15,7 @@
   },
   "publishConfig": {
     "access": "public",
-    "@brinishness:registry": "https://npm.pkg.github.com"
+    "brinishness:registry": "https://npm.pkg.github.com/brinishness"
   },
   "homepage": "",
   "repository": {
