@@ -1,0 +1,34 @@
+{
+  "name": "css",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "types": "dist/types/index.d.ts",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc --watch",
+    "build": "npm run clean && tsc",
+    "lint": "eslint src --ext .js,.ts --cache --fix",
+    "clean": "rm -rf dist",
+    "prepare": "husky install"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/parser": "^5.36.1",
+    "eslint": "^8.23.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard-with-typescript": "^22.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.4.0",
+    "husky": "^8.0.1",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.2"
+  }
+}
