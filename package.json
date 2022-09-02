@@ -17,10 +17,7 @@
     "access": "public"
   },
   "homepage": "",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/brinishness/ming.git"
-  },
+  "repository": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
