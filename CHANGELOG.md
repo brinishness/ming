@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/brinishness/ming/compare/v1.1.1...v1.1.2) (2022-09-02)
+
+
+### Bug Fixes
+
+* 修复生成名称 ([4485d0d](https://github.com/brinishness/ming/commit/4485d0daccf4a561924d535ac86d182998f1ebc3))
+
 ## [1.1.1](https://github.com/brinishness/ming/compare/v1.1.0...v1.1.1) (2022-09-02)
 
 
