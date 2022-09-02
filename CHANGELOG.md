@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/brinishness/ming/compare/v1.1.2...v1.2.0) (2022-09-02)
+
+
+### Features
+
+* complete the CI/CD workflow ([6419ebf](https://github.com/brinishness/ming/commit/6419ebfa1afec88ed78970cdcb7c16d8aaf3f202))
+
 ## [1.1.2](https://github.com/brinishness/ming/compare/v1.1.1...v1.1.2) (2022-09-02)
 
 
