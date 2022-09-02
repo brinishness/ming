@@ -1,6 +1,6 @@
 {
-  "name": "brinishness_test",
-  "version": "1.15.1",
+  "name": "@brinishness/brinishness_test",
+  "version": "1.15.0",
   "description": "",
   "type": "module",
   "types": "dist/types/index.d.ts",
@@ -14,10 +14,14 @@
     "prepare": "husky install"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "@brinishness:registry": "https://npm.pkg.github.com"
   },
   "homepage": "",
-  "repository": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brinishness/ming.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
