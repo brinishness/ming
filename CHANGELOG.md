@@ -1,3 +1,10 @@
+# [1.21.0](https://github.com/brinishness/ming/compare/v1.20.0...v1.21.0) (2022-09-02)
+
+
+### Features
+
+* 修改测试页目录 ([ba8b50f](https://github.com/brinishness/ming/commit/ba8b50f17bdeafd3d7d9669a3ca095c93e3e1261))
+
 # [1.20.0](https://github.com/brinishness/ming/compare/v1.19.0...v1.20.0) (2022-09-02)
 
 
