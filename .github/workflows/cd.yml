@@ -15,6 +15,7 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: 16
+          registry-url: https://npm.pkg.github.com/
       # https://github.com/semantic-release/git/issues/209
       - run: npm ci --ignore-scripts
       - run: npm run build
@@ -22,6 +23,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GH_TOKEN}}
   publish:
     needs: release
     runs-on: ubuntu-latest
