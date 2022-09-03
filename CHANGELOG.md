@@ -1,3 +1,11 @@
+# [1.23.0](https://github.com/brinishness/ming/compare/v1.22.0...v1.23.0) (2022-09-03)
+
+
+### Features
+
+* 添加console ([16c3d03](https://github.com/brinishness/ming/commit/16c3d0398d1a0882bf3c02cf56314e230823d24b))
+* 添加console ([e9ed0a1](https://github.com/brinishness/ming/commit/e9ed0a1f903cc18be5b23e30107ebf323f894053))
+
 # [1.22.0](https://github.com/brinishness/ming/compare/v1.21.0...v1.22.0) (2022-09-02)
 
 
