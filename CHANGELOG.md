@@ -1,3 +1,10 @@
+# [1.25.0](https://github.com/brinishness/ming/compare/v1.24.0...v1.25.0) (2022-09-05)
+
+
+### Features
+
+* 添加打包之后发布 ([39feeef](https://github.com/brinishness/ming/commit/39feeef3cf2d6467f7499b57e56cf15db790e255))
+
 # [1.24.0](https://github.com/brinishness/ming/compare/v1.23.0...v1.24.0) (2022-09-05)
 
 
