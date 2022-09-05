@@ -1,3 +1,10 @@
+# [1.24.0](https://github.com/brinishness/ming/compare/v1.23.0...v1.24.0) (2022-09-05)
+
+
+### Features
+
+* 添加计算方法注释 ([cf18399](https://github.com/brinishness/ming/commit/cf18399d1520bd6d6182114eae676bfb00618c2e))
+
 # [1.23.0](https://github.com/brinishness/ming/compare/v1.22.0...v1.23.0) (2022-09-03)
 
 
