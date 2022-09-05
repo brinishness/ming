@@ -1,3 +1,10 @@
+## [1.25.1](https://github.com/brinishness/ming/compare/v1.25.0...v1.25.1) (2022-09-05)
+
+
+### Bug Fixes
+
+* 修复版本号 ([f0fec9d](https://github.com/brinishness/ming/commit/f0fec9d2281074ba591d9a585fb31abb33a5ccfb))
+
 # [1.25.0](https://github.com/brinishness/ming/compare/v1.24.0...v1.25.0) (2022-09-05)
 
 
