@@ -1,3 +1,11 @@
+# [1.27.0](https://github.com/brinishness/ming/compare/v1.26.0...v1.27.0) (2023-04-15)
+
+
+### Features
+
+* 添加测试页面 ([101b5a6](https://github.com/brinishness/ming/commit/101b5a6cff6ca7ea23288554e7582414683e29d3))
+* 版本升级 ([fa7ac5f](https://github.com/brinishness/ming/commit/fa7ac5fd6ac56c9f3460b21e9682a96ffbed2140))
+
 # [1.26.0](https://github.com/brinishness/ming/compare/v1.25.1...v1.26.0) (2023-04-15)
 
 
