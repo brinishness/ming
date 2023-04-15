@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>简化版Vue---苏日俪格</title>
+</head>
+<header>header</header>
+<div id='main'>
+  <article>article</article>
+  <nav>nav</nav>
+  <aside>aside</aside>
+</div>
+<footer>footer</footer>
+<style>
+  body {
+    font: 24px Helvetica;
+  }
+
+  #main {
+    min-height: 500px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-flow: row;
+  }
+
+  #main>article {
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid #cccc33;
+    border-radius: 7pt;
+    background: #dddd88;
+    flex: 3 1 60%;
+    order: 2;
+  }
+
+  #main>nav {
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid #8888bb;
+    border-radius: 7pt;
+    background: #ccccff;
+    flex: 1 6 20%;
+    order: 1;
+  }
+
+  #main>aside {
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid #8888bb;
+    border-radius: 7pt;
+    background: #ccccff;
+    flex: 1 6 20%;
+    order: 3;
+  }
+
+  header,
+  footer {
+    display: block;
+    margin: 4px;
+    padding: 5px;
+    min-height: 100px;
+    border: 1px solid #eebb55;
+    border-radius: 7pt;
+    background: #ffeebb;
+  }
+
+  /* 窄到已不足以支持三栏 */
+  @media all and (max-width: 640px) {
+
+    #main,
+    #page {
+      flex-direction: column;
+    }
+
+    #main>article,
+    #main>nav,
+    #main>aside {
+      /* 恢复到文档内的自然顺序 */
+      order: 0;
+    }
+
+    #main>nav,
+    #main>aside,
+    header,
+    footer {
+      min-height: 50px;
+      max-height: 50px;
+    }
+  }
+</style>
+<body>
+  <div style="clear: both; content: ''; display: block; width: 100%; height: 80px;">
+    <h1 style="float: left;"><a style="text-decoration: none;" href="https://yufy1314.github.io/">☞☞ 个人主页欢迎访问 ☜☜</a>
+    </h1>
+    <h1 style="float: right;"><a style="text-decoration: none;" href="https://www.jianshu.com/u/72f239ec5d03">☞☞
+        我的博客欢迎访问 ☜☜</a></h1>
+  </div>
+  <hr />
+  <div id="simpleVue">
+    <button yf-on:click="copy">戳我</button>
+    <div>
+      <textarea yf-model="name"></textarea>
+      <div yf-text="name"></div>
+    </div>
+    <hr>
+    <button yf-on:click="show">显示/隐藏</button>
+    <div yf-if="isShow">
+      <input type="text" yf-model="webSite">
+      <div yf-text="webSite"></div>
+    </div>
+  </div>
+  <script src="simpleVue.js"></script>
+  <script>
+    let obj1 = new Proxy([], {
+      get: function(target, attr) {
+        console.log('attr-----------------', target);
+        return target[attr];
+      },
+      set: function (target, attr, value) {
+        target[attr] = value;
+        console.log('value----------------', value)
+      }
+    })
+    obj1['name'] = 1;
+    console.log(obj1['name'])
+  </script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/map/js/china.js"></script>
+  <script>
+    console.log(china)
+  </script>
+  <script>
+    let vm = new SimpleVue({
+      el: '#simpleVue',
+      data: {
+        name: '苏日俪格',
+        webSite: 'https://github.com/YuFy1314',
+        isShow: true
+      },
+      methods: {
+        copy() {
+          this.name += '苏日俪格';
+        },
+        show() {
+          if (this.isShow) {
+            this.isShow = false;
+          } else {
+            this.isShow = true;
+          }
+        }
+      }
+    });
+
+  </script>
+</body>
+
+</html>
