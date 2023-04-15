@@ -1,3 +1,10 @@
+# [1.26.0](https://github.com/brinishness/ming/compare/v1.25.1...v1.26.0) (2023-04-15)
+
+
+### Features
+
+* 版本升级 ([5d2733c](https://github.com/brinishness/ming/commit/5d2733c89747fba9bdc820c074cebaf303949436))
+
 ## [1.25.1](https://github.com/brinishness/ming/compare/v1.25.0...v1.25.1) (2022-09-05)
 
 
