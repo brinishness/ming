@@ -1,6 +1,6 @@
 {
   "name": "@brinishness/brinishness_test",
-  "version": "0.0.0-development",
+  "version": "1.28.0",
   "description": "",
   "type": "module",
   "types": "dist/types/index.d.ts",
