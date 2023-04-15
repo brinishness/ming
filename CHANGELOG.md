@@ -1,3 +1,11 @@
+# [1.28.0](https://github.com/brinishness/ming/compare/v1.27.0...v1.28.0) (2023-04-15)
+
+
+### Features
+
+* 修改版本发布 ([10f8c6d](https://github.com/brinishness/ming/commit/10f8c6d2d524c93a4fb811d17626e48fc02d9eeb))
+* 修改版本发布 ([c2adeca](https://github.com/brinishness/ming/commit/c2adecacadccf90d07393634995e0d176b2982bd))
+
 # [1.27.0](https://github.com/brinishness/ming/compare/v1.26.0...v1.27.0) (2023-04-15)
 
 
